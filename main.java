@@ -15,10 +15,15 @@ public class main{
         System.out.print("Enter operators (+, -, *): ");
         char operators = scan.next().charAt(0);
 
-        switch(operators){          
+        switch(operators){     
+            case '*':
+                result = multiplication(num1, num2);     
             default:
         }
         System.out.println("Result: " + result);
         scan.close();
+    }
+    public static double multiplication(double num1, double num2){
+        return num1 * num2;
     }
 }
