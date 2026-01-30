@@ -17,7 +17,8 @@ public class main{
 
         switch(operators){     
             case '*':
-                result = multiplication(num1, num2);     
+                result = multiplication(num1, num2);
+                break;    
             default:
         }
         System.out.println("Result: " + result);
